@@ -46,3 +46,20 @@ print("Woonplaats: ", gebruiker2["woonplaats"])
 
 gebruiker2["username"] = "admin"
 print("Nieuwe gebruikersnaam: ", gebruiker2["username"])
+
+gebruiker3 = {
+    "username": "administrator3",
+    "firstname": "Candice",
+    "lastname": "Dikfit",
+    "woonplaats": "Amsterdam",
+    "creationDate": vandaag_datum
+}
+
+print("Gebruikersnaam: ", gebruiker3["username"])
+print("Voornaam: ", gebruiker3["firstname"])
+print("Achernaam: ", gebruiker3["lastname"])
+print("Aanmaakdatum: ", gebruiker3["creationDate"])
+print("Woonplaats: ", gebruiker3["woonplaats"])
+
+gebruiker3["username"] = "admin"
+print("Nieuwe gebruikersnaam: ", gebruiker3["username"])
